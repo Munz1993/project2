@@ -1,0 +1,134 @@
+/*Style Elements: Common for All three pages*/
+#navbar-container{
+	position: relative;
+  float: left;
+	left:50%;
+}
+#main-navbar{
+	background-color:#FFA812;
+	overflow:hidden;
+	width:100%;
+	
+}
+#main-navbar ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	float: left;
+	position: relative;
+}
+#main-navbar ul li{
+	float:left;
+	position: relative;
+  right:50%;
+  display: block;
+	
+}
+#main-navbar ul li a{
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+	font-weight:bold;
+	color:#ffff;
+}
+#main-navbar ul li a:hover{
+  background-color: #000;		
+}
+#main-navbar #onpage{
+  text-decoration: underline;
+}
+p{
+	font-size:1em;
+	color:#5A5A5A;
+	padding:0;
+	margin:0;
+}
+h1{
+	font-size:1.8em;
+	font-weight:bold;
+	padding: 4px;
+	margin:10px;
+}
+h2{
+	font-size:1.5em;
+	font-weight:bold;
+	padding: 0 0 0 5em;
+	margin:10px;
+	text-align:left;
+}
+h3{
+	text-transform: uppercase;
+	font-size:1.3em;
+	font-weight:bolder;
+	color: #000000;
+	text-align:center;
+	background-color: #FFEAC5;
+	padding: 1em;
+	margin:0 0;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+h4{
+  text-transform: uppercase;
+	text-align:center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #FFEAC5;
+  padding: 0.5em 0 0.5em 0.3em;
+  margin-bottom: 0.2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h5{
+	font-size:1.0em;
+	padding: 0 0 0 2em;
+	margin: 10px 0;
+}
+
+ul{
+	list-style-type: square;
+	list-style-position:outside;
+	padding-left: 10em;
+	
+}
+ul li{
+	
+	padding: 0 0 0.5em 1em;
+}
+strong{
+	font-weight:bold;
+}
+
+/*Style elements: Travel Log*/
+img {
+  height: 300px;
+  width: 48%;	
+  display: -webkit-box;
+}
+.right {
+ float: right;
+ padding: 0 20px 0 0;
+}
+#media{}
+#media p{
+	font-size:1em;
+	padding:0;
+	margin:0;
+	color: black;
+}
+.box{
+	box-sizing:border-box;
+	background-color:	#EDF8ED;
+  width: 50%;
+  height: 300px;
+  padding: 1em;
+  border: 3px;
+  margin: 0;
+  text-align:justify;
+} 
+
+iframe{
+	height: 300px;
+  width: 48%;	
+  display: -webkit-box;
+}
+	

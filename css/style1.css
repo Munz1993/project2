@@ -1,0 +1,133 @@
+/*Style Elements: Common for All three pages*/
+#navbar-container{
+	position: relative;
+  float: left;
+	left:50%;
+}
+#main-navbar{
+	background-color:#FFA812;
+	overflow:hidden;
+	width:100%;
+	
+}
+#main-navbar ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	float: left;
+	position: relative;
+}
+#main-navbar ul li{
+	float:left;
+	position: relative;
+  right:50%;
+  display: block;
+	
+}
+#main-navbar ul li a{
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+	font-weight:bold;
+	color:#ffff;
+}
+#main-navbar ul li a:hover{
+  background-color: #000;		
+}
+#main-navbar #onpage{
+  text-decoration: underline;
+}
+p{
+	font-size:1em;
+	color:#5A5A5A;
+	padding:0;
+	margin:0;
+}
+h1{
+	font-size:1.8em;
+	font-weight:bold;
+	padding: 4px;
+	margin:10px;
+}
+h2{
+	font-size:1.5em;
+	font-weight:bold;
+	padding: 0 0 0 5em;
+	margin:10px;
+	text-align:left;
+}
+h3{
+	text-transform: uppercase;
+	font-size:1.3em;
+	font-weight:bolder;
+	color: #000000;
+	text-align:center;
+	background-color: #FFEAC5;
+	padding: 1em;
+	margin:0 0;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+h4{
+  text-transform: uppercase;
+	text-align:center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #FFEAC5;
+  padding: 0.5em 0 0.5em 0.3em;
+  margin-bottom: 0.2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h5{
+	font-size:1.0em;
+	padding: 0 0 0 2em;
+	margin: 10px 0;
+}
+
+ul{
+	list-style-type: square;
+	list-style-position:outside;
+	padding-left: 10em;
+	
+}
+ul li{
+	
+	padding: 0 0 0.5em 1em;
+}
+strong{
+	font-weight:bold;
+}
+/*Style elements: Workexperience*/
+.experience-blocks{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffe8+19,d6dbbf+72,d6dbbf+81 */
+background: rgb(254,255,232); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,255,232,1) 19%, rgba(214,219,191,1) 72%, rgba(214,219,191,1) 81%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,255,232,1) 19%,rgba(214,219,191,1) 72%,rgba(214,219,191,1) 81%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,255,232,1) 19%,rgba(214,219,191,1) 72%,rgba(214,219,191,1) 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
+
+
+}
+.experience-blocks p{
+	font-size:1em;
+	padding:1em 0 0 2em;
+	margin:0;
+	color: black;
+}
+.experience-blocks h4{
+  text-transform: uppercase;
+	text-align:center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #FFEAC5;
+  padding: 1em 0 1em 0.3em;
+  margin-bottom: 0.2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.experience-blocks ol{
+	list-style-type: lower-alpha;
+}
+.experience-blocks ol li{
+	text-align:justify;
+	padding:0.2em 2em 0.2em 0.2em;
+}
