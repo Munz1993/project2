@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Project No. 3 for ITM 361</title>
-    <meta name="viewport" content="initial-scale=1.0">
+    <!--<meta name="viewport" content="initial-scale=1.0">-->
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" href="css/map.css">        
+    <link rel="stylesheet" href="css/map.css">   
     <link rel="stylesheet" href="css/style.css">
-    <script async src="js/script.js"></script>    
+	<link rel="stylesheet" href="css/exp1.css">
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+	<script async src="js/script.js"></script>
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
   </head>
   <body>
     <nav id="main-navbar">
@@ -21,7 +27,5 @@
       </div>
     </nav>
     <div id="map"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
-    async defer></script>
   </body>
 </html>
