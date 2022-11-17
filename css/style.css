@@ -207,9 +207,15 @@ iframe{
 
 /*Style Elements related to map div*/
 #map {
-  height: 800px;
-  width: 80%;
-  margin: 30px auto;
+  height: 100%;
+  width: 100%;
+  
 }
-
+#map_container{  
+  width: 1000px;
+  height: 600px;
+  background-color: #0000;
+  margin:0 auto;
+  overflow: hidden;
+}
 
