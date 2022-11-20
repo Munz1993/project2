@@ -1,3 +1,4 @@
+let map: google.maps.Map;
 function initMap() {
   // The location of MTCC
   var mtcc = { lat: 41.835211513686694,lng: -87.62580689029369 }; 
@@ -25,5 +26,11 @@ function initMap() {
     infowindow.open(map, marker);
   });
 }
+declare global {
+  interface Window {
+    initMap: () => void;
+  }
+}
 window.initMap = initMap;
+export {};
 
