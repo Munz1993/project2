@@ -1,3 +1,4 @@
+let map;
 function initMap() {
   // The location of MTCC
   var mtcc = { lat: 41.835211513686694,lng: -87.62580689029369 }; 
@@ -10,7 +11,7 @@ function initMap() {
     }
   };
   // The map, centered at MTCC
-  const map = new google.maps.Map(document.getElementById("map"), mapOptions); 
+  map = new google.maps.Map(document.getElementById("map"), mapOptions); 
   // The marker, positioned at MTCC
   var marker = new google.maps.Marker({
     position: mtcc,
