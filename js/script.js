@@ -10,7 +10,7 @@ function initMap() {
     }
   };
   // The map, centered at MTCC
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
+  const map = new google.maps.Map(document.getElementById("map"), mapOptions); 
   // The marker, positioned at MTCC
   var marker = new google.maps.Marker({
     position: mtcc,
