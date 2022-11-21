@@ -6,7 +6,7 @@ function initMap() {
     center: mtcc,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
-      position: google.maps.ControlPosition.TOP_LEFT
+    position: google.maps.ControlPosition.TOP_LEFT
     }
   };
   // The map, centered at MTCC
@@ -17,7 +17,7 @@ function initMap() {
     map: map,
   });
 	
-  var contentString = "<h1>This is student center of my Alma mater</p>";
+  var contentString = "<h1>This is student center of my Alma mater</h1>";
   var infowindow = new google.maps.InfoWindow({
     content: contentString
   });
