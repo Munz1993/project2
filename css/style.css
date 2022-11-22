@@ -252,7 +252,7 @@ html, body {
   box-shadow: 5px 5px 40px -1px var(--shadow);
 }
 /*media queries*/
-@media screen and (max-width: 600px){
+@media screen (max-width: 600px){
   p{
     font-size:0.7em;
     color:#443F39;
@@ -294,7 +294,7 @@ html, body {
   }
   
 }
-@media screen and (max-width: 900px){
+@media screen (min-width: 601px) and (max-width: 900px){
   p{
     font-size:0.85em;
     color:#0000FF;
