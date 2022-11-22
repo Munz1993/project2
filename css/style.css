@@ -263,7 +263,16 @@ html, body {
   ul li{	
     padding: 0 ;
   }
+  #home-sidebar p{
+    font-size:0.7em;
+    color:#0000FF;
+    padding:0.0em;
+    margin:0;
+  }
+  #home-sidebar ul{
+    padding-left: 0em;
+  }
+  #home-sidebar ul li{	
+    padding: 0 ;
+  }
 }
-		
-
-
