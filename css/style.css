@@ -255,7 +255,7 @@ html, body {
 @media screen and (max-width: 600px){
   p{
     font-size:0.7em;
-    color:#0000FF;
+    color:#443F39;
   }
   ul{
     padding-left: 0em;
@@ -263,11 +263,11 @@ html, body {
   ul li{	
     padding: 0 ;
     font-size: 0.7em;
-    color:#0000FF;  
+    color:#443F39;;  
   }
   #home-sidebar p{
     font-size:0.7em;
-    color:#0000FF;
+    color:#443F39;;
     padding:0.0em;
     margin:0;
   }
@@ -277,7 +277,7 @@ html, body {
   #home-sidebar ul li{	
     padding: 0 ;
     font-size: 0.7em;
-    color:#0000FF;  
+    color:#443F39;;  
   }
   h4{
     text-align:left;
@@ -285,5 +285,43 @@ html, body {
     background-color: #FFEAC5;
     padding: 0
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 900px){
+  p{
+    font-size:0.85em;
+    color:#0000FF;
+  }
+  ul{
+    padding-left: 0em;
+  }
+  ul li{	
+    padding: 0 ;
+    font-size: 0.85em;
+    color:#0000FF;  
+  }
+  #home-sidebar p{
+    font-size:0.85em;
+    color:#0000FF;
+    padding:0.0em;
+    margin:0;
+  }
+  #home-sidebar ul{
+    padding-left: 5em;
+  }
+  #home-sidebar ul li{	
+    padding: 0 0 .25em .5em;
+    padding: 0 ;
+    font-size: 0.85em;
+    color:#0000FF;  
+  }
+  h4{
+    text-align:center;
+    font-size: 1.1em;
+    background-color: #FFEAC5;
+    color: #0000FF;
+    background-color: #FFEAC5;
+    padding: 0.25em 0 0.25em 015em;
+    margin-bottom: 0.1em;
   }
 }
