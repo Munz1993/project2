@@ -262,6 +262,8 @@ html, body {
   }
   ul li{	
     padding: 0 ;
+    font-size: 0.7em;
+    color:#0000FF;  
   }
   #home-sidebar p{
     font-size:0.7em;
@@ -274,5 +276,7 @@ html, body {
   }
   #home-sidebar ul li{	
     padding: 0 ;
+    font-size: 0.7em;
+    color:#0000FF;  
   }
 }
