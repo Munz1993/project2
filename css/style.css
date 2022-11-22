@@ -286,6 +286,13 @@ html, body {
     padding: 0
     margin-bottom: 0;
   }
+  .email_main{
+    font-size:.7em;
+    font-weight:none;
+    color:#FFEAC5;
+    text-decoration:none;
+  }
+  
 }
 @media screen and (max-width: 900px){
   p{
@@ -323,5 +330,9 @@ html, body {
     background-color: #FFEAC5;
     padding: 0.25em 0 0.25em 015em;
     margin-bottom: 0.1em;
+  }
+  .email_main{
+    font-size:0.85em;
+    color:#0000FF;
   }
 }
